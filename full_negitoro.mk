@@ -35,5 +35,5 @@ $(call inherit-product, device/samsung/negitoro/device.mk)
 PRODUCT_NAME := full_negitoro
 PRODUCT_DEVICE := maguro
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := JCROM on Galaxy Nexus
+PRODUCT_MODEL := Galaxy Nexus
 PRODUCT_RESTRICT_VENDOR_FILES := true
