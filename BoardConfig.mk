@@ -13,11 +13,11 @@
 # limitations under the License.
 
 # Default values, possibly overridden by BoardConfigVendor.mk
-TARGET_BOARD_INFO_FILE := device/samsung/maguro/board-info.txt
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/maguro/bluetooth
+TARGET_BOARD_INFO_FILE := device/samsung/negitoro/board-info.txt
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/negitoro/bluetooth
 
 # Use the non-open-source part, if present
--include vendor/samsung/maguro/BoardConfigVendor.mk
+-include vendor/samsung/negitoro/BoardConfigVendor.mk
 
 # Use the part that is common between all tunas
 include device/samsung/tuna/BoardConfig.mk

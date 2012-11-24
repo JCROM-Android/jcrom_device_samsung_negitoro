@@ -18,7 +18,7 @@
 #
 # Everything in this directory will become public
 
-DEVICE_PACKAGE_OVERLAYS := device/samsung/maguro/overlay
+DEVICE_PACKAGE_OVERLAYS := device/samsung/negitoro/overlay
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES := \
@@ -26,3 +26,5 @@ PRODUCT_COPY_FILES := \
 
 $(call inherit-product, device/samsung/tuna/device.mk)
 $(call inherit-product-if-exists, vendor/samsung/maguro/device-vendor.mk)
+$(call inherit-product-if-exists, jcrom/common/common.mk)
+
